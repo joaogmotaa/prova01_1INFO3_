@@ -8,11 +8,13 @@
     */
 
     //ENTRADA
-
-
+    const primeiraAtividade = Number(prompt(`Informe o a nota da primeira atividade:`));
+    const segundaAtividade = Number(prompt(`Informe o a nota da segunda atividade:`));
+    const teceiraAtividade = Number(prompt(`Informe o a nota da terceira atividade:`));
+    const quartaAtividade = Number(prompt(`Informe o a nota da quarta atividade:`));
     //PROCESSAMENTO
-
+const media = ((primeiraAtividade * 1) + (segundaAtividade * 2) + (teceiraAtividade * 3) + (quartaAtividade * 4)) / 10
 
     //SAÍDA
-
+document.write (`A média semestral será: ${media}`);
 </script>

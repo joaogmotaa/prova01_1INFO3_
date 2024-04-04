@@ -7,11 +7,13 @@
     */
 
     //ENTRADA
-
-
+const primeiroTrimestre = Number(prompt(`Informe o a nota do primeiro trimestre:`));
+const segundoTrimestre = Number(prompt(`Informe o a nota do segundo trimestre:`));
     //PROCESSAMENTO
-
-
+const mediaAtual = primeiroTrimestre + segundoTrimestre;
+const terceiro = 18 - (primeiroTrimestre + segundoTrimestre)
     //SAÍDA
-
+document.write (`A média atual do primeiro e segundo trimestre é de: ${mediaAtual}`);
+document.write (`<br>`);
+document.write (`A quantidade de pontos que o aluno deverá tirar no ultimo trimestre para ser aprovado será de: ${terceiro}`);
 </script>
